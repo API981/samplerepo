@@ -3,7 +3,7 @@
 # Series 
 
 # Static input fo N 
-N=8
+N=$1
 
 # First Number of the 
 # Fibonacci Series 
@@ -12,7 +12,6 @@ a=0
 # Second Number of the 
 # Fibonacci Series 
 b=1 
-echo "$1"
 echo "The Fibonacci series is : "
 
 for (( i=0; i<N; i++ )) 
